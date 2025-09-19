@@ -1,4 +1,4 @@
-module authx-go
+module github.com/LullNil/authx-go
 
 go 1.25.1
 

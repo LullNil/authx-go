@@ -6,8 +6,8 @@ import (
 	"errors"
 	"fmt"
 
-	"authx-go/domain/user"
-	"authx-go/internal/repository"
+	"github.com/LullNil/authx-go/domain/user"
+	"github.com/LullNil/authx-go/internal/repository"
 
 	"github.com/lib/pq"
 )

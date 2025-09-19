@@ -1,8 +1,6 @@
 package user
 
 import (
-	"authx-go/domain/user"
-	"authx-go/internal/repository"
 	"context"
 	"errors"
 	"fmt"
@@ -10,6 +8,9 @@ import (
 	"net/http"
 	"regexp"
 	"strings"
+
+	"github.com/LullNil/authx-go/domain/user"
+	"github.com/LullNil/authx-go/internal/repository"
 
 	"github.com/LullNil/go-http-utils/apperr"
 	"golang.org/x/crypto/bcrypt"

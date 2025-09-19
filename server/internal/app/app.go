@@ -10,12 +10,12 @@ import (
 	"syscall"
 	"time"
 
-	"authx-go/config"
-	domainUser "authx-go/domain/user"
-	"authx-go/internal/delivery/http/user"
-	"authx-go/internal/lib/logger"
-	"authx-go/internal/repository/postgres"
-	users "authx-go/internal/service/user"
+	"github.com/LullNil/authx-go/config"
+	domainUser "github.com/LullNil/authx-go/domain/user"
+	"github.com/LullNil/authx-go/internal/delivery/http/user"
+	"github.com/LullNil/authx-go/internal/lib/logger"
+	"github.com/LullNil/authx-go/internal/repository/postgres"
+	users "github.com/LullNil/authx-go/internal/service/user"
 
 	"github.com/go-chi/chi"
 	chimiddleware "github.com/go-chi/chi/middleware"

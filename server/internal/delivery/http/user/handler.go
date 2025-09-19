@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	"authx-go/domain/user"
+	"github.com/LullNil/authx-go/domain/user"
 
 	"github.com/LullNil/go-http-utils/httputils"
 	"github.com/go-playground/validator/v10"

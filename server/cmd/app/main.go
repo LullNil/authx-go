@@ -1,8 +1,8 @@
 package main
 
 import (
-	"authx-go/config"
-	"authx-go/internal/app"
+	"github.com/LullNil/authx-go/config"
+	"github.com/LullNil/authx-go/internal/app"
 )
 
 func main() {

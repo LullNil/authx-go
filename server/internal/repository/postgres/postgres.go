@@ -7,7 +7,7 @@ import (
 	"log/slog"
 	"time"
 
-	"authx-go/config"
+	"github.com/LullNil/authx-go/config"
 
 	_ "github.com/lib/pq"
 )
