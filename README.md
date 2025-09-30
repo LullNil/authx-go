@@ -1,23 +1,23 @@
-# 🔐 AuthX — Scalable Authentication Service in Go
+# AuthX — Scalable Authentication Service in Go
 
 > **Built with Clean Architecture** — Designed for rapid development, easy scaling, and maintainable business logic. Perfect foundation for your next SaaS, API, or microservice.
 
 ---
 
-## ✨ Features
+## Features
 
-- ✅ **Clean Architecture** — Strict separation of concerns: Use Cases, Domain Services, Repositories.
-- 🚀 **Scalable by Design** — Modular structure ready for new domains, entities, and features.
-- 🔐 **Authentication-Ready** — User domain with signup/login flows (extendable to OAuth, 2FA, etc.).
-- 🐳 **Docker & Docker Compose** — One-command setup with PostgreSQL.
-- 📦 **Migrations Included** — Managed via `migrator` CLI tool.
-- 🧪 **Test-Friendly** — Dependency injection ready, interfaces everywhere.
-- 📁 **Structured for Growth** — Add new domains under `/domain`, `/service`, `/delivery`.
-- 🌐 **Frontend-Ready** — Plan to add `/client` for React/Vue/Svelte frontend integration.
+- **Clean Architecture** — Strict separation of concerns: Use Cases, Domain Services, Repositories.
+- **Scalable by Design** — Modular structure ready for new domains, entities, and features.
+- **Authentication-Ready** — User domain with signup/login flows (extendable to OAuth, 2FA, etc.).
+- **Docker & Docker Compose** — One-command setup with PostgreSQL.
+- **Migrations Included** — Managed via `migrator` CLI tool.
+- **Test-Friendly** — Dependency injection ready, interfaces everywhere.
+- **Structured for Growth** — Add new domains under `/domain`, `/service`, `/delivery`.
+- **Frontend-Ready** — Plan to add `/client` for React/Vue/Svelte frontend integration.
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```bash
 authx-go/
@@ -39,7 +39,7 @@ authx-go/
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -75,7 +75,7 @@ task server
 
 ---
 
-## 🧩 Extending the Service
+## Extending the Service
 
 ### Add New Domain (e.g., `Profile`)
 
@@ -87,7 +87,7 @@ task server
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues and feature requests are welcome!
 
@@ -99,10 +99,10 @@ Contributions, issues and feature requests are welcome!
 
 ---
 
-## 📄 License
+## License
 
 MIT License - see [LICENSE](LICENSE) file for details
 
 ---
 
-> ⚡ **Built for developers who care about architecture, scalability, and clean code.**
+> **Built for developers who care about architecture, scalability, and clean code.**
